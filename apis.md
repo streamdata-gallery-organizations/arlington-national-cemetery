@@ -1,17 +1,16 @@
 ---
 name: Arlington National Cemetery
 x-slug: arlington-national-cemetery
-description: Arlington National Cemetery is a United States military cemetery in Arlington
-  County, Virginia, across the Potomac River from Washington, D.C., beneath whose
-  624 acres (253 ha) have been laid casualties, and deceased veterans, of the nations
-  conflicts beginning with the American Civil War, as well as reinterred dead from
-  earlier wars.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/600px-Arlington_National_Cemetery_2012.jpg
+description: Welcome to Arlington National Cemeterys official Facebook page.    Arlington
+  National Cemetery is our nations most hallowed ground. More than 400,000 people
+  are buried here, to include veterans from all our nations wars. Arlington has been
+  the final...
+image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "268709"
 tags: Arlington National Cemetery
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/apis.md
 specificationVersion: "0.14"
 apis: []
