@@ -9,37 +9,29 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "268709"
 tags: Arlington National Cemetery
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Arlington National Cemetery Burial Record API Searches Burial Records
-  x-api-slug: arlington-national-cemetery-burial-record-api
+- name: Arlington National Cemetery Burial Record - Searches Burial Records
+  x-api-slug: search-get
   description: Searches Burial Records
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ArlingtonNationalCemetery_Logo@2x.png
   humanURL: http://wspublic.iss.army.mil
-  baseURL: http://wspublic.iss.army.mil//IssRetrieveServices.svc///search/
-  tags: Cemeteries,Burials,Records
+  baseURL: http://wspublic.iss.army.mil//IssRetrieveServices.svc/
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/search-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/search-get-openapi.md
-- name: Arlington National Cemetery Burial Record API
-  x-api-slug: arlington-national-cemetery-burial-record-api
-  description: Welcome to Arlington National Cemeterys official Facebook page.    Arlington
-    National Cemetery is our nations most hallowed ground. More than 400,000 people
-    are buried here, to include veterans from all our nations wars. Arlington has
-    been the final...
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ArlingtonNationalCemetery_Logo@2x.png
-  humanURL: http://wspublic.iss.army.mil
-  baseURL: http://wspublic.iss.army.mil//IssRetrieveServices.svc/
-  tags: Arlington National Cemetery
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://arin.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://arlington.national.cemetery.stack.network
 - type: x-base
   url: http://wspublic.iss.army.mil/
 - type: x-developer

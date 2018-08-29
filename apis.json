@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Arlington National Cemetery",
+	"description": "This is a repository of arlington national cemetery APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/arlington-national-cemetery.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://arlington-national-cemetery.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Arlington National Cemetery",
+			"x-api-slug": "arlington-national-cemetery",
+			"description": "Welcome to Arlington National Cemeterys official Facebook page.    Arlington National Cemetery is our nations most hallowed ground. More than 400,000 people are buried here, to include veterans from all our nations wars. Arlington has been the final...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ArlingtonNationalCemetery_Logo@2x.png",
+			"humanURL": "http://wspublic.iss.army.mil",
+			"baseURL": "http://public.mapper.army.mil//ANC/rest/services/ANC_External/MapServer/0/",
+			"tags": "Arlington National Cemetery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Arlington National Cemetery",
+	"include": [
+		{
+			"name": "Arlington National Cemetery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/arlington-national-cemetery/master/_listings/arlington-national-cemetery/apis.yaml"
+		}
+	]
+}
